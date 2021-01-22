@@ -26,7 +26,7 @@ body
 h1{
 color:white;
 font-size:8rem;
-font-weight:700;
+font-weight:500;
 text-transform:uppercase;
 line-height:1;
 filter:blur(0.5rem);
@@ -34,7 +34,7 @@ animation: letterspacing 10s infinite
 alternate cubic-bezier(.2,0,0,1);
 display:block;
 position:absolute;
-left:50;
+
 top:50;
 transform: translate3d(-50%,50%,0);
 }
@@ -44,10 +44,12 @@ transform: translate3d(-50%,50%,0);
         filter:blur(0.5rem);
             }
     50%{
-        filter:blur(0.5rem);
+        filter:blur(0.2rem);
     }       
     100%{
         letter-spacing:1rem;
         filter:blur(1.5rem);
     }
+
+
 }
